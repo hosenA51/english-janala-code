@@ -55,7 +55,7 @@ const displayWordDetails=(word)=>{
     detailsBox.innerHTML = `
     <div class="">
             <h2 class="text-2xl font-bold">
-                ${word.word} (<i class="fa-solid fa-microphone-lines"></i> :${word.pronunciation})
+                ${word.word} (<i class="fa-solid fa-microphone-lines"></i> : ${word.pronunciation})
             </h2>
         </div>
         <div class="">
